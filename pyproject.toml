@@ -6,9 +6,18 @@ authors = ["Antonio Feregrino <antonio.feregrino@gmail.com>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
+CairoSVG = "^2.5.1"
+click = "^7.1.2"
+ffmpeg-python = "^0.2.0"
+Jinja2 = "^2.11.3"
+moviepy = "^1.0.3"
 python = "^3.8"
+youtube_dl = "^2021.2.4"
 
 [tool.poetry.dev-dependencies]
+black = {version = "^20.8b1", allow-prereleases = true}
+bump2version = "^1.0.1"
+isort = "^5.7.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
